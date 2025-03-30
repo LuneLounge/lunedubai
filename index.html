@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lune Coffee Shop - Enjoy a premium coffee experience in Dubai. Visit us for freshly brewed coffee, cozy ambiance, and delicious pastries."
+    />
+
+    <title>Lune Lounge</title>
+    <link rel="icon" type="image/x-icon" href="fav/lune.ico" />
+
+    <!-- Preconnect to important third-party domains -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome (consider removing the older version to avoid redundancy) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="data/stylesheet.css" />
+    <!-- Google Font: Playfair Display -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Include Animate.css and wow.js libraries -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- JS Script (Consider moving this to the footer for better performance) -->
+    <script src="data/script.js" defer></script>
+    <script src="data/preloader.js"></script>
+
+    <!-- Include Wow.js (consider deferring if not needed immediately) -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      defer
+    ></script>
+    <!-- Bootstrap JS Bundle (Includes Popper.js, Consider moving to footer for better performance) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <!-- Preload Image and Font -->
+    <link rel="preload" href="image/headerlogotran_1.webp" as="image" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      as="style"
+    />
+    <!-- Bootstrap Icons CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="preloader">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- Header Section Start -->
+    <header id="header" class="header-section">
+      <div class="container text-center">
+        <img
+          src="image/headerlogotran_1.webp"
+          alt="Logo"
+          class="logo img-fluid"
+          loading="eager"
+        />
+        <!-- Set to eager to ensure immediate load -->
+        <br /><br />
+        <h3 class="display-3 fw-bold">Welcome to Lune Lounge</h3>
+        <p class="lead">Experience the best coffee & ambiance</p>
+      </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Navbar section start -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <!-- Mobile Logo (Left) -->
+        <a class="navbar-brand mobile-logo d-lg-none" href="#header">
+          <img src="image/LL_logo.webp" alt="Logo" style="height: 50px" />
+        </a>
+
+        <!-- Toggler Button for Mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Menu Items -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <!-- Desktop Logo (Centered) -->
+            <li class="nav-item d-none d-lg-block">
+              <a class="nav-link" href="#header">
+                <img src="image/LL_logo.webp" alt="Logo" style="height: 50px" />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- About Us Section Start -->
+    <section id="about" class="about-section py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <br /><br />
+          <h2 class="section-title">About Lune Lounge</h2>
+          <br />
+          <p class="text-muted">
+            Welcome to Lune Coffee Shop <br />
+            A cozy space to connect, unwind, and savor specialty coffee.<br />
+            Enjoy expertly brewed drinks, delightful desserts, and a warm
+            atmosphere that feels like home.
+          </p>
+          <br />
+        </div>
+        <!-- Who We Are Section -->
+        <div class="row align-items-center mb-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <h3 class="sub-title">Who We Are</h3>
+            <br />
+            <p class="text-muted">
+              Lune Lounge is more than just a coffee shop; <br />
+              it's a community hub designed for relaxation, creativity, and
+              meaningful conversations.<br />
+              From our carefully curated coffee beans to our welcoming
+              atmosphere, we strive to create an unforgettable experience.
+            </p>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <img
+              src="image/about_1.webp"
+              alt="Who We Are"
+              class="img-fluid rounded shadow"
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <!-- Vision & Mission Section -->
+        <div class="row align-items-center mb-5 flex-lg-row-reverse">
+          <div class="col-lg-6" data-aos="fade-left">
+            <h3 class="sub-title">Our Vision & Mission</h3>
+            <br />
+            <p class="text-muted">
+              We envision a space where coffee brings people together,<br />
+              where ideas flow freely, and where every visitor feels at home.<br />
+              Our goal is to redefine coffee culture by blending quality,
+              creativity, and warmth. Our mission is to provide high-quality,
+              ethically sourced coffee while fostering a space for relaxation
+              and inspiration.<br />
+              We are committed to sustainability, excellent service, and
+              creating a welcoming environment for all.
+            </p>
+          </div>
+          <div class="col-lg-6" data-aos="fade-right">
+            <img
+              src="image/about_2.webp"
+              alt="Vision & Mission"
+              class="img-fluid rounded shadow"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us Section End -->
+
+    <!-- Video Section Start -->
+    <section
+      class="video-section position-relative d-flex align-items-center justify-content-center text-center"
+    >
+      <!-- Background Video -->
+      <video class="video-bg" playsinline autoplay muted loop>
+        <source src="video/coffee2.mp4" type="video/mp4" />
+      </video>
+
+      <!-- Dark Overlay -->
+      <div class="overlay"></div>
+
+      <!-- Content Container -->
+      <div class="content text-white">
+        <img
+          src="image/mountain_white.webp"
+          class="responsive-img"
+          alt="Gallery Image"
+        />
+        <br />
+        <h1 class="video-title mb-3">Lune Lounge</h1>
+        <p class="video-text">We use premium beans</p>
+      </div>
+    </section>
+    <!-- Video Section End -->
+
+    <!-- Lune Coffee Shop Section Start -->
+    <section
+      class="coffee-shop-section py-5"
+      style="background-color: #f7f3f1; color: #f7f3f1"
+    >
+      <div class="container text-center">
+        <h2>LUNE LOUNGE COFFEE</h2>
+        <h6>CRAFTED FOR COFFEE LOVERS</h6>
+        <div class="row mt-5">
+          <!-- Freshly Brewed Box -->
+          <div class="col-md-4 coffee-box mb-4">
+            <img
+              src="data/assest/icons/coffee-beans-1.svg"
+              alt="Freshly Brewed"
+              width="60"
+              height="60"
+              class="colored-svg"
+              loading="lazy"
+            />
+            <br />
+            <h5>FRESHLY BREWED</h5>
+            <p>
+              Our coffee is brewed fresh with the finest beans from around the
+              world, giving you the perfect start to your day.
+            </p>
+          </div>
+          <!-- Expert Brew Box -->
+          <div class="col-md-4 coffee-box mb-4">
+            <img
+              src="data/assest/icons/coffee-cup-tea.svg"
+              alt="Expert Brew"
+              width="60"
+              height="60"
+              class="colored-svg"
+              loading="lazy"
+            />
+            <br />
+            <h5>EXPERT BREW</h5>
+            <p>
+              Each cup is crafted by skilled baristas, using the finest
+              ingredients and techniques to deliver a rich, flavorful
+              experience.
+            </p>
+          </div>
+          <!-- Gather & Unwind Box -->
+          <div class="col-md-4 coffee-box mb-4">
+            <img
+              src="data/assest/icons/network.svg"
+              alt="Gather & Unwind"
+              width="60"
+              height="60"
+              class="colored-svg"
+              loading="lazy"
+            />
+            <br />
+            <h5>GATHER & UNWIND</h5>
+            <p>
+              Lune Lounge is more than a coffee shop; it's a space to unwind,
+              enjoy expertly crafted drinks, and connect with others
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Lune Coffee Shop Section End -->
+
+    <!-- Gallery Section Start -->
+
+    <section id="gallery" class="gallery-section py-5">
+      <div class="container text-center">
+        <h2 class="mb-4">Our Gallery</h2>
+        <div class="row g-4">
+          <!-- Gallery Images -->
+          <div class="col-md-4">
+            <div class="gallery-item">
+              <a href="image/gallery1.webp" data-lightbox="gallery">
+                <img
+                  src="image/gallery1.webp"
+                  class="img-fluid rounded gallery-img"
+                  alt="Gallery Image 1"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="gallery-item">
+              <a href="image/gallery2.webp" data-lightbox="gallery">
+                <img
+                  src="image/gallery2.webp"
+                  class="img-fluid rounded gallery-img"
+                  alt="Gallery Image 2"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="gallery-item">
+              <a href="image/gallery3.webp" data-lightbox="gallery">
+                <img
+                  src="image/gallery3.webp"
+                  class="img-fluid rounded gallery-img"
+                  alt="Gallery Image 3"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="gallery-item">
+              <a href="image/gallery4.webp" data-lightbox="gallery">
+                <img
+                  src="image/gallery4.webp"
+                  class="img-fluid rounded gallery-img"
+                  alt="Gallery Image 4"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="gallery-item">
+              <a href="image/gallery5.webp" data-lightbox="gallery">
+                <img
+                  src="image/gallery5.webp"
+                  class="img-fluid rounded gallery-img"
+                  alt="Gallery Image 5"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="gallery-item">
+              <a href="image/gallery6.webp" data-lightbox="gallery">
+                <img
+                  src="image/gallery6.webp"
+                  class="img-fluid rounded gallery-img"
+                  alt="Gallery Image 6"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--gallery section end-->
+
+    <!--Let's talk businee section start-->
+    <section
+      id="contact"
+      class="business-video-section position-relative d-flex align-items-center justify-content-center text-center"
+    >
+      <video class="business-video-bg" autoplay muted loop playsinline>
+        <source src="video/business.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="overlay"></div>
+      <div class="content text-white">
+        <h2 class="fw-bold">Let’s Talk Business.</h2>
+      </div>
+    </section>
+    <!--Let's talk businee section End-->
+
+    <!--####################### Content section start #############################-->
+    <section id="contact-form" class="contact-section">
+      <div class="container">
+        <div class="contact-container">
+          <!-- Contact Info (Left Side) -->
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-label">Address</div>
+              <div class="contact-text">
+                United Arab Emirates, Dubai, Jumeirah 2
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+              <div class="contact-label">Phone</div>
+              <div class="contact-text">+971 4 223 9544</div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-label">Email</div>
+              <div class="contact-text">info@example.com</div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-clock"></i></div>
+              <div class="contact-label">Open Hours</div>
+              <div class="contact-text">Mon-Fri: 9:00 AM - 6:00 PM</div>
+            </div>
+
+            <!-- Social Icons -->
+            <div class="social-icons">
+              <a href="https://www.instagram.com/lunedubai/" class="social-icon"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/luneloungedubai"
+                class="social-icon"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Contact Form (Right Side) -->
+          <div class="contact-form">
+            <!--<h3>Contact Us</h3>-->
+            <form action="https://formspree.io/f/xpwprwyj" method="POST">
+              <div class="form-group">
+                <!--<label for="name">Name</label>-->
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <!--<label for="email">Email</label>-->
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <!--<label for="email">Email</label>-->
+                <input
+                  type="text"
+                  class="form-control"
+                  id="phone"
+                  name="phone"
+                  placeholder="Enter your Phone number"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <!--<label for="message">Message</label>-->
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Write your message..."
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--####################### Content section End #############################-->
+
+    <!-- Lightbox Script -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+    <!-- Footer Section Start -->
+    <footer class="footer bg-light text-center py-4">
+      <div class="container">
+        <p class="mb-2">&copy; 2025 Lune Coffee Shop. All rights reserved.</p>
+        <p class="mb-2">Follow Us</p>
+        <div class="social-icons">
+          <a
+            href="https://www.instagram.com/lunedubai/"
+            class="me-3"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/luneloungedubai"
+            class="me-3"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- AOS Animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1000, once: true });
+    </script>
+  </body>
+</html>
