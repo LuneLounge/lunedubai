@@ -365,13 +365,12 @@ footer p {
 
 .business-video-bg {
   position: absolute;
-  top: -350%; /* Adjust as needed */
+  top: 50%;
   left: 50%;
   width: 100%;
-  height: auto;
-  min-height: 100%;
+  height: 100%;
   object-fit: cover;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
 }
 
 .overlay {
@@ -436,6 +435,7 @@ footer p {
   font-weight: bold;
   white-space: nowrap;
   min-width: 100px; /* Ensures all labels have the same width */
+  font-size: medium;
 }
 
 .contact-text {
@@ -546,7 +546,7 @@ footer p {
   position: fixed;
   width: 100%;
   height: 100%;
-  background: #f7f3f1; /* Change to your background color */
+  background: #ffffff; /* Change to your background color */
   display: flex;
   align-items: center;
   justify-content: center;
